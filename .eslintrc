@@ -1,0 +1,19 @@
+{
+  "extends": "eslint:recommended",
+  "env":{
+    "node":true,
+    "es6":true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": "error",
+    "no-debugger": "error",
+    "no-alert": 2,
+    "no-eval": 0,
+    "no-var": 2,
+    "arrow-spacing": "error",
+    "space-before-function-paren": ["error", "always"],
+    "semi": ["error", "never"],
+    "quotes": ["error","single"]
+  }
+}

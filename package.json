@@ -1,0 +1,37 @@
+{
+  "name": "brand-cms-api",
+  "version": "1.0.0",
+  "description": "品牌官网CMS API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon start.js",
+    "start": "cross-env NODE_ENV=production node start.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src"
+  },
+  "keywords": [],
+  "author": "tang.zw",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-jwt": "^3.5.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.11",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.9.0",
+    "nodemon": "^1.18.6"
+  }
+}
